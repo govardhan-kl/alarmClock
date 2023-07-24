@@ -1,6 +1,24 @@
+@media only screen and (min-width: 500px) {
+    ul{
+        width: 350px;
+    }
+  }
+
+
+@media only screen and (max-width: 500px) {
+    ul{
+        width: 200px;
+    }
+    #setAlarmDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
 body{
     background-color: black;
     color: white;
+    min-width: 450px;
 }
 
 #appName, #displayTime{
@@ -28,8 +46,13 @@ button:hover{
 }
 
 main{
-    margin: auto;
-    padding: 2% 25% 2%;
+    margin: 2% 25% 2%;
+    /* padding: 2% 25% 2%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 main > p{
@@ -38,10 +61,13 @@ main > p{
 
 ul{
     list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    
 }
 
 li{
-    max-width: 350px;
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     margin: 0px 10px 0px;
