@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#appName, #displayTime{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+    color: darkgray;
+}
+
+#form1 input{
+    width: 40px;
+}
+
+#setAlarmDiv{
+    width:400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover{
+    border-radius: 5px;
+    background-color: gray;
+    color: aliceblue;
+}
+
+main{
+    margin: auto;
+    padding: 2% 25% 2%;
+}
+
+main > p{
+    margin: 0% 5% 0%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px;
+    padding: 0px 5px 0px;
+    border-bottom: 1.5px solid white;
+}
+
+li:hover{
+    border-bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px white;
+}
+
+.deleteDiv{
+    padding: 15px 0px 10px;
+}
+
+img{
+    background-color: white;
+    border-radius: 5px;
+    width:18px;
+    height: 18px;
+    top: 10px;
+}
+
+
+img:hover{
+    background-color: rgb(239, 97, 97);
+    box-shadow: 0px 0px 4px 4px rgb(232, 95, 95);
+}
